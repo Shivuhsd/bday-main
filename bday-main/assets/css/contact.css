@@ -1,0 +1,137 @@
+:root {
+    --navback: rgb(41, 41, 41);
+    --backgroundcolor: rgb(17, 17, 17);
+}
+
+.contact {
+    margin: 3%;
+    display: flex;
+    justify-content: left;
+}
+
+.contactform {
+    flex-direction: column;
+    margin-right: 7%;
+}
+
+
+.con {
+    font-size: 2.5rem;
+    margin: 3% 0;
+}
+
+.di {
+    font-size: 0.9rem;
+    margin: 4% 0;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    font-size: large;
+    padding-left: 10px;
+    height: 40px;
+    border: 0.1px solid white;
+    border-radius: 10px;
+    background-color: var(--backgroundcolor);
+}
+
+
+
+textarea {
+    height: 150px;
+}
+
+label {
+    margin: 5px 0;
+    margin-top: 20px;
+}
+
+.subs {
+    font-size: 0.8rem;
+    margin: 5px 0;
+}
+
+
+.submit{
+    margin-top: 7%;
+    text-decoration: none;
+    background-color: var(--backgroundcolor);
+    color: white;
+    width: 20%;
+    font-size: large;
+    font-weight: lighter;
+    margin-left: 1px;
+    padding: 7px 15px;
+    border: 0.1px solid white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: lighter;
+    border-radius: 45px;
+}
+
+
+.available {
+    width: 50%;
+    margin-top: 6%;
+}
+
+.av {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.avil {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+
+.dot {
+    margin: 0 10px;
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        flex-direction: column;
+    }
+
+
+    button {
+        margin-top: 7%;
+        text-decoration: none;
+        background-color: var(--backgroundcolor);
+        color: white;
+        width: 40%;
+        font-size: large;
+        font-weight: lighter;
+        margin-left: 1px;
+        padding: 7px 15px;
+        border: 0.1px solid white;
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-style: lighter;
+        border-radius: 45px;
+    }
+
+
+.available {
+    width: 93%;
+    margin: 10% 0;
+}
+}

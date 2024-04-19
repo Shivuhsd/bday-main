@@ -1,0 +1,125 @@
+.servs {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.serv {
+    margin-top: 5%;
+}
+
+
+.front-end, .back-end, .consultation {
+    width: 50%;
+    margin: 40px;
+}
+
+
+.front-end p, .back-end p, .consultation p {
+    margin-top: 1%;
+    font-size: 1.1rem;
+}
+
+.heads {
+    margin-top: 20px;
+    margin: 0 20px;
+}
+
+.ttl {
+    font-size: 2.1rem;
+    margin: 0% 20px;
+}
+
+
+.serdes {
+    font-size: 0.9rem;
+    margin: 7px 20px;
+}
+
+.ctwo {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 3%;
+}
+
+.see, .lets {
+    border: 0.1px solid white;
+    border-radius: 38px;
+    padding: 3% 3%;
+    margin: 0 1%;
+    width: 45%;
+}
+
+.tl {
+    font-size: 2.0rem;
+    margin-bottom: 3%;
+}
+
+
+.see {
+    background: rgb(70,214,244);
+    background: linear-gradient(45deg, rgba(70,214,244,1) 30%, rgba(67,67,255,1) 60%);
+}
+
+
+.cbtn button {
+    text-decoration: none;
+    margin-top: 5%;
+    font-size: large;
+    background-color: var(--navback);
+    color: white;
+    font-weight: lighter;
+    margin-left: 1px;
+    padding: 7px 15px;
+    border: 0.1px solid white;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: lighter;
+    border-radius: 45px;
+}
+
+
+.tlt {
+    font-size: 4rem;
+    margin: 3% 0;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .serv {
+        margin-top: 10%;
+    }
+
+    .servs {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .front-end, .back-end, .consultation {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .heads {
+        margin: 0px;
+    }
+
+    .ctwo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .see, .lets {
+        border: 0.1px solid white;
+        border-radius: 38px;
+        padding: 10% 5%;
+        width: 90%;
+        margin: 7% 0;
+    }
+  }
